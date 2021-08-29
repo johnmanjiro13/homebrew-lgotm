@@ -12,22 +12,22 @@ class Lgotm < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/johnmanjiro13/lgotm/releases/download/v0.4.3/lgotm_Darwin_x86_64.tar.gz"
-      sha256 "28e5912b3506e5355bafb1b4ef58e51284afb5f41a4cdf8de006764ddc1cd31a"
+      sha256 "688d6acc4aa42c56dc1397dbe387fce1085409e120ada82f4d5582e5bbb0e072"
     end
     if Hardware::CPU.arm?
       url "https://github.com/johnmanjiro13/lgotm/releases/download/v0.4.3/lgotm_Darwin_arm64.tar.gz"
-      sha256 "e5e8723c06c280fbc0fee7a41e8ded4eebce5f20081c92d621988f6609424f6e"
+      sha256 "140bec16cab73dcb4de1aac73aa8486ca94d8a1db7750f335281e01fd48f9db4"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/johnmanjiro13/lgotm/releases/download/v0.4.3/lgotm_Linux_x86_64.tar.gz"
-      sha256 "3921fe772843094385b26e208f04434d4a63ba4b9f318142bad71d75fae9b732"
+      sha256 "a3c8d1c694342ba8f1c40eeb740bcb2ac9d0f4de524f93361ac27642117505f8"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/johnmanjiro13/lgotm/releases/download/v0.4.3/lgotm_Linux_arm64.tar.gz"
-      sha256 "a74253c19ba20a77be75179d017297223248ae0d5ac8e0355ad1a6b5c80e3152"
+      sha256 "cb286f93ebfd94ef96f994fdbfaca0cf9c839db4210067a81ba237b3be75579c"
     end
   end
 
